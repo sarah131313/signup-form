@@ -7,7 +7,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: hsl(0, 100%, 74%);
-    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; /* Separate the main from the footer */
+    min-height: 100vh;
 
 
 }
